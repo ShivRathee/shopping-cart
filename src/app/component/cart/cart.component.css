@@ -1,0 +1,186 @@
+.container-fluid {
+  padding: 20px;
+}
+
+h3 {
+  color: #333;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.thead-dark th {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.table img {
+  width: 120px;
+}
+
+.col-sm-3 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: 1px solid #6c757d;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-success,
+.btn-dark {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-success:hover,
+.btn-dark:hover {
+  filter: brightness(90%);
+}
+
+.modal-header {
+  border-bottom: 1px solid #333;
+}
+
+.modal-title {
+  color: #333;
+}
+
+.modal-body .btn-info,
+.modal-body .btn-dark {
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.modal-body .btn-info:hover,
+.modal-body .btn-dark:hover {
+  filter: brightness(90%);
+}
+
+.card .center {
+  text-align: center;
+  padding: 20px;
+}
+
+.card img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.card .btn-dark {
+  background-color: #343a40;
+  color: #fff;
+  border: 1px solid #343a40;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card .btn-dark:hover {
+  background-color: #23272b;
+}
+.mt-3 {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-success,
+.btn-dark {
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-success:disabled,
+.btn-dark:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-success:hover,
+.btn-dark:hover {
+  filter: brightness(90%);
+}
+
+.modal {
+  margin-top: 100px;
+}
+
+.modal {
+  margin-top: 50px;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+  width: 250px;
+}
+
+.btn-dark {
+  margin-top: 20px;
+}

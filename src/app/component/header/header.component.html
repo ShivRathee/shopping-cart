@@ -1,0 +1,60 @@
+<div class="sticky-header">
+  <div class="header-container">
+    <div class="header">
+      <h3 style="color: #333; font-size: 23px">Popular E-commerce Products</h3>
+    </div>
+
+    <div class="cart">
+      <button routerLink="cart-page" style="font-size: 24px" class="cartBtn">
+        Items: {{ cartitems }} <i class="fa fa-shopping-cart"></i>
+      </button>
+
+      <div
+        class="dropdown-menu"
+        *ngIf="showproduct.length >= 1"
+        style="border: 2px solid red"
+      >
+        <div class="CartContainer">
+          <div class="row">
+            <div class="col-6">
+              <strong class="text-dark">Your Cart Items </strong>
+            </div>
+            <div class="col-3 text-end text-primary">
+              <strong class="text-dark">Price </strong>
+            </div>
+
+            <div class="row mt-3" *ngFor="let item of showproduct">
+              <div class="col-7">
+                <img
+                  style="width: 70px; margin-left: 5px"
+                  src="{{ item.thumbnail }}"
+                />
+              </div>
+              <div class="col-3">
+                <h4 class="text-dark">₹{{ item.price }}</h4>
+              </div>
+              <div class="col-1">
+                <button
+                  (click)="deleteitem(item)"
+                  class="btn btn-warning text-light mt-2"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <button
+                (click)="emptycart()"
+                *ngIf="this.showproduct.length >= 1"
+                class="btn btn-sm btn-warning mt-2"
+              >
+                Empty cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
